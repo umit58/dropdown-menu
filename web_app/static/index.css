@@ -80,6 +80,20 @@ button {
     border-top-right-radius: 0;
 }
 
+.drop_menu_panel_link {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding: 12px 25px;
+}
+
+.drop_menu_panel_link:hover, .drop_menu_panel_link:focus {
+    color: #025CB8;
+    text-decoration: underline;
+}
+
 
 
 
