@@ -54,6 +54,30 @@ button {
     position: relative;
 }
 
+.menu_trigger {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    width: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 14px;
+    font-size: 0.875rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 12px 20px;
+    -webkit-transition: background-color 0.25s ease,color 0.25s ease,height 0.25s ease,padding 0.25s ease;
+    transition: background-color 0.25s ease,color 0.25s ease,height 0.25s ease,padding 0.25s ease;
+}
+
 .drop_menu_item {
     display: none;
     height: 42px;
